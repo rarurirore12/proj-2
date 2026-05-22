@@ -1,0 +1,71 @@
+.header{ 
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 100px;
+background-color: #e5e7eb;
+}
+.header-links{
+    display: flex;
+list-style-type: none;
+gap: 20px;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+  align-items: center;
+  padding: 30px 100px;
+  background-color: #e5e7eb;
+}
+.hero-image{
+  flex: 1;
+  display: flex;
+    justify-content: center;
+}
+
+.info h2{
+   display: flex;
+  justify-content: center;  
+   
+}
+
+.info-container {
+  display: flex;
+  justify-content: center; /* Чтобы карточки были по центру */
+  flex-wrap: nowrap;        /* Позволяет переносить элементы на новую строку */
+  gap: 20px;
+  padding: 0 100px;  
+}
+
+.card {
+  display: flex;
+  flex-direction: column; /* Картинка сверху, текст снизу */
+  align-items: center;
+}
+
+.quote{
+  padding: 0 150px;  
+  background-color: #e5e7eb;
+}
+.cite{
+font-weight: bold;
+text-align: right;        
+}
+.diskr{
+  font-style: italic;
+}
+
+.cta{
+  margin: 30px 100px;  
+  padding: 0 30px;  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e5e7eb;
+}
+
+.footer{
+   display: flex;
+  justify-content: center;  
+  background-color: #e5e7eb;
+}
